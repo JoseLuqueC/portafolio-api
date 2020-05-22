@@ -1,0 +1,21 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "Api Rest del master de Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Jose Luque",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
